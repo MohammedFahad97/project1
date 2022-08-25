@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Orbitron&family=Poiret+One&display=swap');
+body{
+    margin-top: 30px;
+    margin-left: 90px;
+    font-family: 'orbitron';
+    min-width: 10px;
+}
+
+.list{
+    position: absolute;
+    column-gap: 29px;
+    columns: 20;
+    list-style: none;
+    margin-left: 300px;
+    font-size:  30px;
+    text-align: match-parent;
+    margin-top: -50px ;
+    float: left;
+    font-size: bold;
+    font-weight: bold;
+
+}
+.list-item1{
+    text-decoration: underline 2px black;
+    text-underline-offset: 5px;
+}
+.button-group{
+    float: left;
+
+    
+
+}
+.search-icon{
+    margin-top: -40px;
+    width: 50px;
+    margin-left: 1120px;
+    margin-right: 10px;
+
+
+}
+.nav-button{
+position: relative;
+position: absolute;
+    margin-left: 1180px;
+    margin-top: -50px;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size:larger;
+    font-family: Montserrat Alternates;
+    font-weight: bold;
+    
+}
+.square{
+    z-index:-1;
+    margin-left: 150px;
+    position:absolute;
+    margin-top: 340px;  
+    margin-bottom: 50px;
+}
+.globe{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.star{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 100px;
+}
+.hero-container-left{
+position: absolute;
+margin-top: 80px;
+
+}
+.hero-heading{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 650px;
+    font-size: 58px;
+}
+.hero-description{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 690px;
+    margin-right: 10%;
+    text-align: center;
+    font-family: Montserrat Alternates ;
+    font-size: 16px;
+    color: 	#242526;
+    display: flex;
+    justify-items: center;
+    
+}
+.button-email{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 48%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #616161;
+    background-color: white ;
+    border: 3px solid #A9A9A9;
+    font-family: orbitron;
+    font-weight: bold;
+    border-radius: 14px;
+    font-size: 25px;
+}
+.button-join{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 70%;
+    padding-left: 18px;
+    padding-right:18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    border-color: 3px solid black ;
+    font-family: orbitron;
+    font-weight: bold;
+    border-radius: 14px;
+    font-size: 25px;
+}
+.contact-heading{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 60%;
+    font-family:Montserrat Alternates ;
+    font-size: larger;
+    font-weight: bold;
+    color: #616161;
+    font-size: 25px;
+}
+.icons{
+    position: absolute;
+    margin-top: 36.5%;
+    margin-left: 59%;
+    
+}
+.stars{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 38%;
+    size: 100px;
+}
